@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Register</title>
+<style>
+h1{text-align:center;}
+form { 
+margin: 0 auto; 
+width:250px;
+}</style>
+</head>
+<body>
+<h1>Customer Registration</h1>
+<form method="post" action='CustomerRegister'>
+
+                    <hr>
+
+                    <label for="username"> Email </label>
+                    <div>
+                        <input type="text" name="email" id="username" value="" placeholder="Email ">
+                    </div>
+
+                    <label for="password">Password</label>
+                    <div>
+                        <input type="password" name="password" id="password" value="" class="form-control"
+                            placeholder="Password">
+                    </div>
+                    
+                    <label for="name">Name</label>
+                    <div>
+                        <input type="text" name="name" id="name" value="" 
+                            placeholder="Name">
+                    </div>
+                     <label for="address">Address</label>
+                    <div>
+                        <input type="text" name="address" id="address"
+                            placeholder="Address">
+                    </div>
+                     
+                    <input type="submit" value="Register">
+
+                   
+                </form>
+</body>
+</html>

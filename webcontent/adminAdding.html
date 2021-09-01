@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Adding</title>
+<style>
+h1{text-align:center;}
+form { 
+margin: 0 auto; 
+width:250px;
+}</style>
+</head>
+<body>
+<h1>Add A New Admin</h1>
+<form method="post" action='AdminReg'>
+
+                    <hr>
+
+                    <label for="username"> Email </label>
+                    <div>
+                        <input type="text" name="email" id="username" value="" placeholder="Email ">
+                    </div>
+
+                    <label for="password">Password</label>
+                    <div>
+                        <input type="password" name="password" id="password" value="" class="form-control"
+                            placeholder="Password">
+                    </div>
+                    
+                    <label for="name">Name</label>
+                    <div>
+                        <input type="text" name="name" id="name" value="" 
+                            placeholder="Name">
+                    </div>
+                     <label for="thname">Manager for Theatre</label>
+                    <div>
+                        <input type="text" name="theatreName" id="thname" value="" 
+                            placeholder="Theatre Name">
+                    </div>
+                     <label for="phnumer">Phone Number</label>
+                    <div>
+                        <input type="text" name="phnum" id="phnumber" value="" 
+                            placeholder="Phone Number">
+                    </div>
+                    
+
+                    <input type="submit" value="Add Manager">
+
+                   
+                </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding Movies</title>
+<style>form{
+margin: 0 auto; 
+width:250px;
+}</style>
+</head>
+<body>
+<h1 style="text-align:center;">ADD Movies</h1>
+<form method="post" action='AddMovies'>
+
+                    <hr>
+
+                    <label for="moviename"> Movie Name </label>
+                    <div>
+                        <input type="text" name="moviename" id="moviename" value="" placeholder="Movie Name ">
+                    </div>
+
+                    <label for="dateofrel">Date OF Release</label>
+                    <div>
+                        <input type="date" name="dateofrel" id="dateofrel" value="">
+                    </div>
+                    
+                    <label for="ticketprice">Ticket Price</label>
+                    <div>
+                        <input type="text" name="ticketprice" id="ticketprice" value="" 
+                            placeholder="Ticket Price">
+                    </div>
+                     <label for="thname">Theatre Name</label>
+                    <div>
+                        <input type="text" name="theatreName" id="thname" value="" 
+                            placeholder="Theatre Name">
+                    </div>
+                    
+                    <input type="submit" value="Add Movie">
+
+                   
+                </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ticket Booking</title>
+<style>
+h1{text-align:center;}
+form { 
+margin: 0 auto; 
+width:250px;
+}</style>
+</head>
+<body>
+<h1>Booking Tickets</h1>
+<form method="post" action='BookTickets'>
+
+                    <hr>
+
+                    <label for="username"> Email </label>
+                    <div>
+                        <input type="text" name="email" id="username" value="" placeholder="Email ">
+                    </div>
+
+                    <label for="thename">Theatre Name</label>
+                    <div>
+                        <input type="text" name="thename" id="thename" 
+                            placeholder="Theatre Name">
+                    </div>
+                    
+                    <label for="not">Number Of Tickets</label>
+                    <div>
+                        <input type="text" name="not" id="not" 
+                            placeholder="Number Of Tickets">
+                    </div>
+                     <label for="dob">Date Of Booking</label>
+                    <div>
+                        <input type="date" name="dob" id="dob">
+                    </div>
+                    
+                     <label for="movie">Movie Name</label>
+                    <div>
+                        <input type="text" name="movieName" id="movie" placeholder="Movie Name">
+                    </div>
+                     
+                    <input type="submit" value="Book Tickets">
+
+                   
+                </form>
+</body>
+</html>
